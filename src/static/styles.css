@@ -74,6 +74,19 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px; /* Asegura espacio para los bullets */
+  list-style-type: disc; /* Define el estilo de los bullets */
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1.4; /* Mejora la legibilidad */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
