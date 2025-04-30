@@ -87,6 +87,32 @@ section h3 {
   line-height: 1.4; /* Mejora la legibilidad */
 }
 
+.activity-card .participants {
+  margin-top: 15px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f1f8e9; /* Light green background for distinction */
+  border-radius: 4px;
+}
+
+.activity-card .participants h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #2e7d32; /* Green color for the title */
+}
+
+.activity-card .participants ul {
+  padding-left: 20px;
+  list-style-type: circle; /* Circle bullets for variety */
+  color: #4caf50; /* Green color for the list items */
+}
+
+.activity-card .participants ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
